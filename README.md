@@ -6,7 +6,7 @@ Para perceber as diferenças no tempo de processamento das informações, foi fe
 
 Este projeto é separado em 2 partes: 
 
-1) Compreender o projeto e elaborar um documento escrito (estabelecido como PCAM.pdf no repositório) descrevendo como as tarefas serão particionadas entre as maquinas disponíveis no cluster, a fim de solucionar o problema.
+1) Compreender o projeto e elaborar um documento (PCAM.pdf no repositório), descrevendo como as tarefas serão particionadas entre as maquinas disponíveis no cluster, a fim de solucionar o problema.
 
 2) Implementar a solução em linguagem c utilizando biblioteca MPI.
 
