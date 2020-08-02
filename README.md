@@ -6,7 +6,7 @@ Desenvolvimento de trabalho de programação concorrente em MPI com linguagem c 
 Para perceber as diferenças no tempo de processamento das informações, foi feito um código para computar as informaçes em apenas uma maquina(chamado [studentsseq.c](https://github.com/EwertonPSA/Programacao_Concorrente/blob/master/studentsseq.c)) e um para computar em diferentes maquinas no cluster(chamado [studentspar.c](https://github.com/EwertonPSA/Programacao_Concorrente/blob/master/studentspar.c)). O arquivo [my_hostfile](https://github.com/EwertonPSA/Programacao_Concorrente/blob/master/my_hostfile) informa as maquinas disponiveis no cluster e a quantidade de nós que será usada em cada maquina para o processamento em paralelo.
 
 ## Desenvolvimento do projeto
-Este projeto é separado em 2 partes: 
+Este projeto foi separado em 2 partes: 
 
 1) Compreender o projeto e elaborar um [documento (PCAM.pdf)](https://github.com/EwertonPSA/Programacao_Concorrente/blob/master/pcam.pdf), descrevendo como as tarefas serão particionadas entre as maquinas disponíveis no cluster, a fim de solucionar o problema.
 
