@@ -33,18 +33,6 @@ struct melhorRegiao{
     float media;
 };
 
-
-/*
-    Acreditamos que fazer uma funçao para todos os calculos ao invez de 5  fazia sentido em nosso programa pois as chamada de funçao
-    podem ter um tempo consideravel pela ordem de grandeza de nossos resultados, ao testar verificamos(verificameos  media de tempo 
-    para um numero de dados grande)isso entao resolvemos implementar uma funçao ao invez de 5, poderiamos fazer sem funçao, que apresentou
-    os melhores resultados(pela media de tempo para um conjunto de dados de tamanho 10^8) mas o codigo nao ia ficar modular e iria dificultar a leitura e entendimento etao escolhemos
-    pela segunda opcao
-    Uma coisa que notamos tambem é que se o programa estiver rodando com o navegador(piora com varias abas abertas) aberto a porcentagem de ganho do paralelismo cai drasticamente
-    outra coisa e que na hr do print do exemplo do professor era para dar em uma regiao media de (43.63, 48.63 e 33.63) o nosso codigo da 43.625 mas o pc por algum motivo arredonda para 43.62
-    48.62 e 33.62 nao sabiamos como arrumar isso, nao é o tipo de erro que conta nesse trabalho mas decidimos deixar avisado
-
-*/
 /*
     int tamanho -> quantidade de dados daquela amostra, 
     int contador[101] -> vetor responsavel por falar a quantidade de inteiros de cada valor que existe na amostra
